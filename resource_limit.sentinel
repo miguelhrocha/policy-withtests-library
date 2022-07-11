@@ -1,6 +1,6 @@
 import "resources"
 
-param limit default 200
+param limit default 300
 
 main = rule {
   resources.count() < limit
