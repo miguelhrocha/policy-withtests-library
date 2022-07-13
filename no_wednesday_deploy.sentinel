@@ -1,6 +1,6 @@
 import "today"
 
-param off_limits default "Wednesday"
+param off_limits default "wednesday"
 
 main = rule {
   today.day_of_week() != off_limits
