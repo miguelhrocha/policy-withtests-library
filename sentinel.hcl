@@ -10,6 +10,10 @@ policy "resource_limit" {
 policy "no-friday-deploy" {
   source = "./no_friday_deploy.sentinel"
 }
+  
+policy "no-wednesday-deploy" {
+  source = "./no_wednesday_deploy.sentinel"
+} 
 
 module "today" {
   source = "./today.sentinel"
